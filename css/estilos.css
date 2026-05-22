@@ -1,0 +1,58 @@
+body::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #005684;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #747373;
+}
+.btn {
+    background-color: #005684;
+    color: #fff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn.hover {
+    background-color: #fff;
+}
+.text-center{
+    background-color: #005684;
+    color: #fff;
+}
+.center{
+    text-align: center;
+   
+
+}
+.center2{
+    text-align: center;
+    background-color: #00994d;
+    color: #fff;
+    border-radius: 50px;
+
+}
+.row{
+    background-color: #fff;
+    border-radius: 15px;
+  
+}
+
+.l{
+    display: grid;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    grid-template-columns: auto auto auto ;
+  
+}
+
+
